@@ -3014,7 +3014,7 @@ end
 					return "Mute "..msg_type.." is already off"
 				end
 			end
-			if matches[2] == 'text'or matches[2] =='چت' then
+			if matches[2] == 'text'or matches[2] =='متن' then
 			local msg_type = 'Text'
 				if is_muted(chat_id, msg_type..': yes') then
 					savelog(msg.to.id, name_log.." ["..msg.from.id.."] set SuperGroup to: unmute message")
